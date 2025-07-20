@@ -175,3 +175,30 @@ body {
 .bullet-points {
   max-width: 431px;
 }
+
+.main-container-2 {
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.tech-logo-container {
+  position: absolute;
+  right: 450px;
+  top: 350px;
+}
+
+.main-container-2-txt-container {
+  margin: 127px auto;
+}
+
+.main-container-2-desc {
+  position: relative;
+  margin-top: 24px;
+}
+.cirlce-highlight {
+  position: absolute;
+  top: -87px;
+  left: 132px;
+}

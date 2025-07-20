@@ -6,6 +6,7 @@ import { MainContainer2 } from "./components/ui/MainContainer2";
 import { ReadingJourney } from "./components/ui/ReadingJourney";
 import { Membership } from "./components/ui/Membership";
 import { Testimonial } from "./components/ui/Testimonial";
+import { Footer } from "./components/ui/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           {/* <Membership /> */}
           <Testimonial />
         </div>
+        <Footer />
       </div>
     </>
   );

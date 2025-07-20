@@ -277,3 +277,63 @@ body {
 .testimonial-content {
   margin-top: 32px;
 }
+
+/* FOOTER */
+.footer-container {
+  margin-top: 120px;
+  background: var(--color-neutral-900);
+  min-height: 512px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-main-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer-content {
+  margin: 64px auto;
+  border-top: 1px solid var(--color-neutral-700);
+  width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.footer-left {
+  margin-top: 24px;
+}
+
+.footer-btn {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  gap: 6px;
+  border: 2px solid white;
+  box-shadow: none;
+  text-shadow: none;
+  margin-top: 40px;
+}
+
+.footer-reviews {
+  margin-top: 24px;
+}

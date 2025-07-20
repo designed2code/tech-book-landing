@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* COLORS */
+    --color-neutral-900: #062630;
+    --color-neutral-700: #385159;
+    --color-neutral-200: #e6e1df;
+    --color-neutral-100: #faf5f3;
+    --color-neutral-0: #ffffff;
+
+    --color-salmon-500: #fea36f;
+    --color-salmon-100: #ffe2d1;
+    --color-salmon-50: #fff5ef;
+
+    /* Gradient */
+    --gradient-txt: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
+    --gradient-bg: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+  }
+}

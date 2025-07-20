@@ -1,10 +1,17 @@
 import { Button } from "@/components/ui/button";
+import { Navbar } from "./components/ui/Navbar";
+import { Main } from "./components/ui/Main";
 
 function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
-    </div>
+    <>
+      <div className="hero">
+        <div className="main-container">
+          <Navbar />
+          <Main />
+        </div>
+      </div>
+    </>
   );
 }
 

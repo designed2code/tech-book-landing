@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap");
 @layer base {
   :root {
     /* COLORS */
@@ -45,6 +45,103 @@
     --radius-16: 16px;
     --radius-20: 20px;
     --radius-24: 24px;
-    --radius-full: 999px; /* This is a common value for a fully rounded shape */
+    --radius-full: 999px;
   }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Martian Mono", monospace;
+}
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: var(--gradient-bg);
+  height: 100vh;
+  background-image: url("./assets/PatternLight.png");
+}
+
+.heroImg {
+  width: 540px;
+  height: 606px;
+  object-fit: contain;
+}
+
+.hero-txt {
+  font-size: 65px;
+  background: var(--gradient-txt);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-btn {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  background-color: var(--color-salmon-50);
+  color: var(--color-neutral-900);
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  gap: 6px;
+  border: 2px solid var(--color-neutral-900);
+  box-shadow: none;
+  text-shadow: none;
+  margin-top: 32px;
+}
+
+.hero-desc {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--color-neutral-700);
+  margin-top: 20px;
+  letter-spacing: -0.5px;
+  line-height: 140%;
+  width: 570px;
+}
+
+.left-hero {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-grow: 1;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+.review-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviews-desc {
+  font-size: 12px;
 }

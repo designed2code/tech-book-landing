@@ -4,6 +4,7 @@ import { Main } from "./components/ui/Main";
 import { MainContainer } from "./components/ui/MainContainer";
 import { MainContainer2 } from "./components/ui/MainContainer2";
 import { ReadingJourney } from "./components/ui/ReadingJourney";
+import { Membership } from "./components/ui/Membership";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <MainContainer />
           <MainContainer2 />
           <ReadingJourney />
+          <Membership />
         </div>
       </div>
     </>

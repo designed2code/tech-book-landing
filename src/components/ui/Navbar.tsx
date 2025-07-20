@@ -3,7 +3,7 @@ import React from "react";
 export const Navbar = () => {
   return (
     <>
-      <div>
+      <div style={{ display: "flex", width: "100%" }}>
         <svg
           style={{ marginTop: "32px" }}
           width="190"

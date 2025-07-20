@@ -4,7 +4,7 @@ export const Membership = () => {
       <div className="membership-container">
         <h1 className="main-container-heading">Membership options</h1>
         <div className="membership-card-container">
-          {[1, 2, 3].map((item, index) => (
+          {[1, 2, 3].map((index) => (
             <div key={index} className="membership-card">
               <h1>Starter</h1>
               <p>$19 /month</p>

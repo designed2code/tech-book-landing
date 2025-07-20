@@ -3,6 +3,7 @@ import { Navbar } from "./components/ui/Navbar";
 import { Main } from "./components/ui/Main";
 import { MainContainer } from "./components/ui/MainContainer";
 import { MainContainer2 } from "./components/ui/MainContainer2";
+import { ReadingJourney } from "./components/ui/ReadingJourney";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Main />
           <MainContainer />
           <MainContainer2 />
+          <ReadingJourney />
         </div>
       </div>
     </>

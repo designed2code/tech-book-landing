@@ -73,9 +73,8 @@ body {
 }
 
 .hero {
-  background: var(--gradient-bg);
   height: 100vh;
-  background-image: url("./assets/PatternLight.png");
+  background-image: url("./assets/PatternLight.png"), var(--gradient-bg);
 }
 
 .heroImg {
@@ -201,4 +200,40 @@ body {
   position: absolute;
   top: -87px;
   left: 132px;
+}
+
+.reading-journey-container {
+  margin-top: 120px;
+  min-height: 454px;
+  background-image: url("./assets/PatternLight.png"), var(--gradient-bg);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reading-journey-heading-container {
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.step-container {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  gap: 2rem;
+}
+
+.number-and-arrow-container {
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.step-desc {
+  font-size: 18px;
 }

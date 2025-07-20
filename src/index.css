@@ -34,5 +34,17 @@
     --spacing-600: 48px;
     --spacing-800: 64px;
     --spacing-1000: 80px;
+
+    /* BORDER RADIUS */
+    --radius-0: 0;
+    --radius-4: 4px;
+    --radius-6: 6px;
+    --radius-8: 8px;
+    --radius-10: 10px;
+    --radius-12: 12px;
+    --radius-16: 16px;
+    --radius-20: 20px;
+    --radius-24: 24px;
+    --radius-full: 999px; /* This is a common value for a fully rounded shape */
   }
 }

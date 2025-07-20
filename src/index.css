@@ -17,7 +17,7 @@
 
     /* Gradient */
     --gradient-txt: linear-gradient(107deg, #ff9a60 -11.37%, #062630 61.84%);
-    --gradient-bg: linear-gradient(90deg, #ffe2d1 0%, #fff5ef 100%);
+    --gradient-bg: linear-gradient(360deg, #ffe2d1 0%, #fff5ef 0%);
 
     /* SPACING */
     --spacing-0: 0px;

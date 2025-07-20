@@ -264,3 +264,16 @@ body {
   border: 1px solid var(--color-neutral-200);
   padding: 24px;
 }
+
+/* TESTIMONIAL */
+.testimonial-container {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 970px;
+}
+
+.testimonial-content {
+  margin-top: 32px;
+}
